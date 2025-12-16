@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+    <title>NOCA</title>
+    <link rel="icon" type="image/png" href="icons/NOCA-icon.png">
+    <link rel="stylesheet" href="NOCA.css">
+    <link rel="stylesheet" href="Variable.css">
+</head>
+<body>
+   
+
+<nav class="bg-white fixed w-full z-50 top-0 start-0 ">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="img/NOCA Logoo.png" class=" w-30" alt="NOCA Logo" />
+    </a>
+    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        <button type="button" class="text-black hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-3xl text-sm px-3 py-2 focus:outline-none botonn">Suscribirse</button>
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-sticky" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
+        </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-default rounded-base bg-neutral-secondary-soft md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-neutral-primary gap-5 lg:gap-15 text-xl">
+        <li>
+          <a href="index.html" class="block py-2 px-3 text-black bg-brand rounded-sm md:bg-transparent md:text-fg-brand md:p-0" aria-current="page">Inicio</a>
+        </li>
+        <li>
+          <a href="guias.html" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Guias y cursos</a>
+        </li>
+        <li>
+          <a href="noticias.html" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Noticias</a>
+        </li>
+        <li>
+          <a href="page7.html" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Preguntas frecuentes</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ <main>
+   <section 
+  class="flex flex-col lg:flex-row bg-cover bg-center bg-no-repeat mx-[30px] rounded-2xl mt-30"
+  style="background-image: url('img/section1.png');"
+>
+    
+    <div class="flex flex-col items-center justify-center px-6 py-16 lg:py-24 lg:w-1/2">
+        <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-center text-heading titulo1">
+          
+            Ellos confian en nosotros, <br>rompe el ciclo con NOCA
+        </h1>
+
+        <p class="mt-4 text-lg sm:text-xl md:text-2xl lg:text-3xl text-center text-body">
+            La lucha contra el comercio no regulado de animales de compañia es un problema grave. Aprende como ayudar con nuestras guias y cursos cortos.
+        </p>
+
+        <button onclick="window.location.href='Page11.html'"
+          type="button" 
+          class="mt-8 hover:bg-brand-strong shadow-xs font-medium text-xl sm:text-2xl px-6 py-3 rounded-3xl elcambio"
+        >
+            Unirme al cambio
+        </button>
+    </div>
+    <img 
+      src="img/section1.gif" 
+      alt="" 
+      class="w-full lg:w-1/2 max-w-[450px] lg:max-w-[600px] object-contain mx-auto p-6 lg:p-0 mt-6 lg:mt-0"
+    >
+</section>
+
+    <!-- section2 -->
+    <section class="px-4 py-8 sm:px-8 sm:py-12 md:px-16 md:py-16 lg:px-20 lg:py-20 w-100% bento">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 mx-auto">
+          <div class="relative">
+            <img
+              src="img/quienes somos.svg"
+              alt="¿Quiénes somos?"
+              class="w-full object-cover h-full rounded-3xl"/>
+            <button onclick="window.location.href='Page3.html'"
+              type="button"
+              class="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white bg-orange-500 hover:bg-brand-strong box-border border border-transparent focus:ring-2 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm sm:text-base md:text-lg lg:text-xl px-3 py-2 sm:px-4 sm:py-2.5 md:px-5 md:py-3 focus:outline-none rounded-3xl elcambio z-10 whitespace-nowrap">
+              Conocer sobre NOCA
+            </button>
+          </div>
+          <div class="relative">
+            <img
+              src="img/alianzas.gif"
+              alt="Alianzas"
+              class="w-full object-cover h-full rounded-3xl"/>
+              <button onclick="window.location.href='alianzas.html'"
+              type="button"
+              class="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white bg-orange-500 hover:bg-brand-strong box-border border border-transparent focus:ring-2 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm sm:text-base md:text-lg lg:text-xl px-3 py-2 sm:px-4 sm:py-2.5 md:px-5 md:py-3 focus:outline-none rounded-3xl elcambio z-10 whitespace-nowrap">
+              Ver alianzas
+            </button>
+          </div>
+          <div class="sm:row-span-2 relative">
+            <img
+              src="img/eventos beneficos.png"
+              alt="Eventos benéficos"
+              class="w-full object-cover h-full rounded-3xl"/>
+              <button onclick="window.location.href='eventos.html'"
+              type="button"
+              class="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white bg-orange-500 hover:bg-brand-strong box-border border border-transparent focus:ring-2 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm sm:text-base md:text-lg lg:text-xl px-3 py-2 sm:px-4 sm:py-2.5 md:px-5 md:py-3 focus:outline-none rounded-3xl elcambio z-10 whitespace-nowrap">
+              Ver eventos
+            </button>
+          </div>
+          <div class="sm:col-span-2 lg:col-span-2 relative">
+            <img
+              src="img/Testimonios_20250917_011150_0000.svg"
+              alt="Testimonios"
+              class="w-full object-cover h-full rounded-3xl"/>
+               <button onclick="window.location.href='page7.html'"
+              type="button"
+              class="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white bg-orange-500 hover:bg-brand-strong box-border border border-transparent focus:ring-2 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm sm:text-base md:text-lg lg:text-xl px-3 py-2 sm:px-4 sm:py-2.5 md:px-5 md:py-3 focus:outline-none rounded-3xl elcambio z-10 whitespace-nowrap">
+              Ver testimonios
+            </button>
+          </div>
+        </div>
+      </section>
+    <!-- section 3 -->
+    <section class="mt-5">
+  <h1 class="titulo2 text-5xl sm:text-6xl md:text-7xl lg:text-8xl p-6 sm:p-10">
+    Noticias recientes:
+  </h1>
+  <div class="flex flex-col lg:flex-row gap-5 mx-6 sm:mx-10  rounded-2xl section3">
+    <section class="flex flex-col p-6 gap-10 justify-center items-center lg:w-1/2">
+      <p class="text3 text-xl sm:text-2xl md:text-3xl text3">
+        Ella es Wanda, una bulldog que pasó 12 años siendo explotada en un criadero 
+        ilegal. El 7 de mayo de 2025 fue rescatada. Su historia conmovió a Bogotá, 
+        descubre qué ocurrió después con su rescate.
+      </p>
+
+      <button onclick="window.location.href='noticias.html'" type="button" class=" hover:bg-brand-strong box-border border border-transparent focus:ring-2 focus:ring-brand-medium shadow-xs font-medium leading-3 rounded-base text-xl px-5 py-3 focus:outline-none rounded-xl elcambio z-20 w-80">Conocer su historia</button>
+    </section>
+<section class="flex justify-center lg:w-1/2 p-0 m-0">
+  <img 
+    src="img/waanda.png" 
+    alt="" 
+    class=" w-[250px] h-auto mx-auto sm:w-[300px] lg:w-full lg:h-full lg:mx-0 object-cover rounded-3xl"
+  >
+</section>
+
+  </div>
+</section>
+
+      <!-- section 4 -->
+      <section class="flex flex-col lg:flex-row items-center gap-5 px-6 mt-10">
+  <img 
+    src="img/datos de animales.png" 
+    alt="" 
+    class="w-[250px] sm:w-[300px] md:w-[350px] lg:w-[600px] h-auto mx-auto"
+  >
+  <section class="flex flex-col gap-10 lg:w-1/2 text-2xl sm:text-3xl md:text-4xl lg:text-3xl p-4">
+    <p>
+      En Colombia, el comercio ilegal y no ético de animales domésticos crece silenciosamente.
+    </p>
+    <p>
+      Solo en Bogotá, más de 100.000 perros y gatos viven en situación de calle.
+    </p>
+  </section>
+
+</section>
+
+      <!-- section 5 -->
+     
+  <section class="section5 relative flex justify-center items-center mb-20 w-full h-[400px] 
+                sm:h-[500px] md:h-[480px] lg:h-[520px]">
+    <img 
+      src="img/perros leyendo.png" 
+      alt="" 
+      class="lg:h-[400px] sm:h-[200px] object-cover h-70"
+    >
+    <section 
+      class="text5 absolute 
+         w-[80%] sm:w-[65%] md:w-[55%] lg:w-1/2 
+         p-3 sm:p-6 md:p-8 
+         flex flex-col 
+         gap-4 sm:gap-6 md:gap-8 
+         rounded-2xl justify-center items-center text-center">
+
+      <h1 class="derechos text-2xl sm:text-2xl md:text-4xl">
+        Conoce sus derechos
+      </h1>
+
+      <p class="derechos2 text-base sm:text-lg md:text-xl">
+        ¿Sabías que existen leyes que castigan el maltrato y regulan la tenencia 
+        de animales de compañía? Aquí te resumimos lo esencial.
+      </p>
+
+      <button onclick="window.location.href='page10.html'"
+        type="button" 
+        class=" lg:w-61 hover:bg-brand-strong box-border border border-transparent 
+               focus:ring-2 focus:ring-brand-medium shadow-xs font-medium 
+               leading-5 rounded-base text-sm sm:text-2xl px-5 py-3 
+               focus:outline-none rounded-3xl elcambio">
+        Leer resumen
+      </button>
+
+    </section>
+  </section>
+
+      <!-- section 6 -->
+     <section class="flex flex-col -mt-10 lg:flex-row gap-10 lg:gap-20 p-6 sm:p-10 items-center ">
+
+  
+  <section class="flex flex-col gap-10 lg:gap-12 w-full lg:w-1/2 text-center lg:text-left">
+    <h1 class="section6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+      ¿Has sido testigo de maltrato o explotación animal y no sabes cómo actuar?
+    </h1>
+
+    <p class="text6 text-lg sm:text-xl md:text-2xl lg:text-3xl">
+      En NOCA te orientamos y gestionamos tu denuncia para que llegue a las autoridades competentes (IDPYBA). Juntos damos voz a quienes no la tienen.
+    </p>
+  </section>
+
+  <section class="flex flex-col items-center w-full lg:w-1/2">
+
+    <img 
+      src="img/gato_home.png" 
+      alt="" 
+      class="max-w-[250px] sm:max-w-[320px] md:max-w-[380px] lg:max-w-[450px] w-full"
+    >
+
+    <button 
+        type="button" 
+        class=" lg:w-[450px] w-65 hover:bg-brand-strong box-border border border-transparent 
+               focus:ring-2 focus:ring-brand-medium shadow-xs font-medium 
+               text-xl sm:text-2xl py-2 focus:outline-none rounded-b-2xl rounded-t-none elcambio">
+        Contáctanos
+      </button>
+
+  </section>
+  
+</section>
+
+ </main>
+ 
+<!-- footer -->
+
+
+<footer>
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0">
+              <a href="noca.html" class="flex items-center">
+                  <img src="img/logo noca blanco.png" class="h-20 me-3" alt="FlowBite Logo" />
+                  <img src="img/nombre noca blanco.png" alt="">
+              </a>
+          </div>
+          <div class="grid grid-cols-2 gap-9 sm:gap-50 sm:grid-cols-2 text-white">
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold text-heading uppercase">Contáctanos</h2>
+                  <ul class="text-body font-medium">
+                      <li class="mb-4">
+                          <a href="" class="hover:underline">nocaweb@comunicaciones.co</a>
+                      </li>
+                      <li>
+                          <a href="#" class="hover:underline">+ (601) 2281260</a>
+                      </li>
+                      <li>
+                          <a href="#" class="hover:underline">+ 320 354 2079</a>
+                      </li>
+                  </ul>
+              </div>
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold text-heading uppercase">Suscríbete</h2>
+                  
+<form class="max-w-sm mx-auto">
+  <label for="input-group-1" class="block mb-2.5 text-sm font-medium text-heading">Introduce tu email para enterarte de noticias, guías y contenido.</label>
+  <div class="relative">
+    <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+      <svg class="w-4 h-4 text-body" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="m3.5 5.5 7.893 6.036a1 1 0 0 0 1.214 0L20.5 5.5M4 19h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z"/></svg>
+    </div>
+    <input type="text" id="input-group-1" class="block w-full ps-9 pe-3 py-2.5 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand shadow-xs placeholder:text-body" placeholder="name@flowbite.com">
+  </div>
+</form>
+
+              </div>
+          </div>
+      </div>
+      <hr class="my-6 border-default sm:mx-auto lg:my-8 border-white" />
+      <div class="sm:flex sm:items-center sm:justify-between text-white">
+          <span class="text-sm text-body sm:text-center">© 2025 <a href="https://flowbite.com/" class="hover:underline">Noca LTDA.</a>. todos los derechos reservados
+          </span>
+          <div class="flex mt-4 sm:justify-center sm:mt-0">
+            <a href="#" class="text-body hover:text-heading">
+                <img src="img/Instagram Circle.png" alt="">
+                <span class="sr-only">Facebook page</span>
+            </a>
+            <a href="#" class="text-body hover:text-heading ms-5">
+               <img src="img/Facebook.png" alt="">
+                <span class="sr-only">Discord community</span>
+            </a>
+            <a href="#" class="text-body hover:text-heading ms-5">
+            <img src="img/Twitter Circled.png" alt="">
+            <span class="sr-only">Twitter page</span>
+            </a>
+          </div>
+      </div>
+    </div>
+</footer>
+
+</body>
+</html>

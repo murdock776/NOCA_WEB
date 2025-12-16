@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="icon" type="image/png" href="icons/NOCA-icon.png">
+  <link rel="stylesheet" href="NOCA.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+</head>
+<body>
+    <!--Inicio navbar-->
+    <nav class="bg-white fixed w-full z-50 top-0 start-0 ">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="img/NOCA Logoo.png" class=" w-30" alt="NOCA Logo" />
+    </a>
+    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        <button type="button" class="text-black hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-3xl text-sm px-3 py-2 focus:outline-none botonn">Suscribirse</button>
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-sticky" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
+        </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-default rounded-base bg-neutral-secondary-soft md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-neutral-primary gap-5 lg:gap-15 text-xl">
+        <li>
+          <a href="index.html" class="block py-2 px-3 text-black bg-brand rounded-sm md:bg-transparent md:text-fg-brand md:p-0" aria-current="page">Inicio</a>
+        </li>
+        <li>
+          <a href="guias.html" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Guias y cursos</a>
+        </li>
+        <li>
+          <a href="noticias.html" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Noticias</a>
+        </li>
+        <li>
+          <a href="page7.html" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Preguntas frecuentes</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <!--Fin navbar-->
+ 
+<div class="page_container w-full max-w-[1250px] mx-auto px-5 mt-[110px]">
+
+  <div class="noticia_container flex flex-col lg:flex-row gap-[38px] items-start">
+    <div class="noticia_left w-full lg:w-[65%] flex flex-col gap-[22px] order-1">
+      <img src="img/wanda_hero.png"
+        alt="noticia"
+        class="noticia_main_img w-full h-[350px] lg:h-[350px] rounded-[16px] object-cover shadow-lg">
+      <h1 class="noticia_titulo text-[#49b6b6] text-[35px] font-['Fredoka'] font-medium [26px] leading-tight">
+        IDPYBA rescata perrita presuntamente sobre explotada en criaderos ilegales
+      </h1>
+      <div class="meta_row flex gap-3 items-center">
+        <span class="tag_btn bg-[#e4f7f6] border border-[#c4ece8] text-[#00706c] text-[13px] font-semibold px-4 py-[6px] rounded-full">
+          Más noticias
+        </span>
+        <span class="tag_btn bg-[#e4f7f6] border border-[#c4ece8] text-[#00706c] text-[13px] font-semibold px-4 py-[6px] rounded-full">
+          Compartir noticia
+        </span>
+        <span class="small-meta text-[#7a7a7a] text-[13px]">
+          Por: IDPYBA • 07 Mayo 2025
+        </span>
+      </div>
+      <div class="noticia_texto bg-white rounded-[14px] p-6 shadow-md text-[15.5px] leading-[1.7] text-justify text-[#333]">
+        <p>Bogotá D.C., 7 de mayo de 2025 (@animalesbog). En un operativo interinstitucional, del Instituto Distrital de Protección y Bienestar Animal - IDPYBA, en articulación con la Policía de Carabineros, fue rescata Wanda, una perrita de raza Bulldog que presuntamente era utilizada para crías en una vivienda de la localidad de Bosa.
+Wanda de 12 años de edad, presentaba falencias en su salud física con una condición corporal disminuida, donde sus costillas y columna vertebral se podían palpar con facilidad.
+Su pelaje estaba completamente sucio, uno de sus labios se había perdido por completo y varios de sus dientes se habían caído. Su abdomen era la muestra del maltrato a la que fue sometida, sus glándulas mamarias estaban más grandes de lo normal y en su vientre se hallaba una gran masa sin que recibiera una atención médica oportuna.
+
+Debido a las condiciones en la que se encontraba, el equipo médico veterinario emitió concepto desfavorable y la Policía de Carabineros efectuó su aprehensión material preventiva.
+Wanda fue puesta bajo la custodia del IDPYBA y trasladada de inmediato a la Unidad de Cuidado Animal, donde recibe actualmente una atención médica integral con el fin de restablecer su salud física, comportamental, y nutricional.
+
+Así mismo, el IDPYBA establecerá la ruta jurídica para defender sus derechos y su caso será remitido a las autoridades competentes para dar inicio a las acciones a las que haya lugar.
+Los veterinarios, con su sentido profesional de vida, la miraban a diario pensando en darle descanso a su pena. Sus dientes se le estaban cayendo, su vientre estaba lleno de masas y su respiración era forzada. 
+
+Pero Wanda y otros muchos más animales cayeron en medio de un debate frío y sin real conciencia de su estado. El debate de la sociedad que no permite que los perros y gatos agobiados tengan derecho a una buena y rápida muerte. Una muerte llena de comprensión y amor por ellos. Por ella decidieron quienes estaban sanos y llenos de energía para pensar que hacían bien al presionar por evitar una eutanasia que cesaría su sufrimiento, hasta superar una muerte que iba a llegar sí o sí.
+
+Wanda murió en su canil una mañana de un día cualquiera gracias a los que reclamaban a gritos en las redes sociales porque no la “durmieran”. Una mañana cualquiera en que sus cuidadores, médicos veterinarios que lidian a diario con el dolor, sabían que ese era, inevitablemente, su destino final. Médicos que lloraron cuando vieron su demacrado cuerpo sin vida.
+
+Ojalá la muerte de Wanda nos sirva para elevar el debate sobre la eutanasia animal; que nos oriente en cómo entender una decisión médica llena de compasión.
+Antes de cerrar recordemos los que significa esa palabra “escandalosa” para muchos: “La eutanasia, también conocida como “muerte asistida”, es la práctica de provocar la muerte de una persona para aliviar su sufrimiento, a petición propia y con el objetivo de terminar con su dolor” y  para los que no tienen voz, ¿Cuándo existirá el mismo derecho?</p>
+      </div>
+    </div>
+    <div class="noticia_right w-full lg:w-[35%] flex flex-col gap-[26px] order-2 mt-10 lg:mt-0">
+      <div class="card bg-white p-[18px] rounded-[16px] shadow-md">
+        <h3 class="text-[15px] font-bold mb-[14px] text-[#e47739]">Tendencia:</h3>
+        <div class="tendencia_item">
+          <img src="img/ley_angel.png" class="w-full h-[180px] rounded-[14px] object-cover object-bottom">
+        </div>
+      </div>
+
+      <!-- MÁS NOTICIAS -->
+      <div class="card bg-white p-[18px] rounded-[16px] shadow-md">
+        <h3 class="text-[15px] font-['Fredoka'] font-medium mb-[14px] text-[#3da4a4]">Más Noticias</h3>
+        <div class="mas_item flex flex-col sm:flex-row gap-3 mb-[14px]">
+          <img src="img/m1.png" class="w-[220px] h-[100px] rounded-[12px] object-cover">
+          <p class="text-[13.5px] text-[#333] leading-tight">
+            Rescatan 4 perros bulldog de un criadero en Bosa
+          </p>
+        </div>
+        <div class="mas_item flex flex-col sm:flex-row gap-3 mb-[14px]">
+          <img src="img/m2.png" class="w-[220px] h-[100px] rounded-[12px] object-cover">
+          <p class="text-[13.5px] text-[#333] leading-tight">
+            Operativo rescata 15 animales de un criadero clandestino
+          </p>
+        </div>
+        <div class="mas_item flex flex-col sm:flex-row gap-3 mb-[14px]">
+          <img src="img/m3.png" class="w-[220px] h-[100px] rounded-[12px] object-cover">
+          <p class="text-[13.5px] text-[#333] leading-tight">
+            Rescatan 4 perros, 1 gato y 5 aves de un presunto criadero ilegal
+          </p>
+        </div>
+        <div class="mas_item flex flex-col sm:flex-row gap-3 mb-[14px]">
+          <img src="img/m4.png" class="w-[220px] h-[100px] rounded-[12px] object-cover">
+          <p class="text-[13.5px] text-[#333] leading-tight">
+            Operativo encontró criadero clandestino con 9 Pomerania y una Shih Tzu 
+          </p>
+        </div>
+        <div class="mas_item flex flex-col sm:flex-row gap-3 mb-[14px]">
+          <img src="img/m5.png" class="w-[220px] h-[100px] rounded-[12px] object-cover">
+          <p class="text-[13.5px] text-[#333] leading-tight">
+            El IDPYBA encontró decenas de perros en criadero ilegal en Soacha
+          </p>
+        </div>
+        <div class="franja"></div>
+        <div class="mas_item flex gap-3 mt-[20px] mb-[14px]">
+          <img src="img/vidio01.png" class="w-[400px] h-[200px] rounded-[12px] object-cover">
+        </div>
+        <div class="mas_item flex gap-3 mb-[14px]">
+          <img src="img/vidio02.png" class="w-[400px] h-[200px] rounded-[12px] object-cover">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Inicio Footer-->
+<footer>
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0">
+              <a href="noca.html" class="flex items-center">
+                  <img src="img/logo_blanco.png" class="h-20 me-3" alt="FlowBite Logo" />
+                  <img src="img/nombre noca blanco.png" alt="">
+              </a>
+          </div>
+          <div class="grid grid-cols-2 gap-9 sm:gap-50 sm:grid-cols-2 text-white">
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold text-heading uppercase">Contáctanos</h2>
+                  <ul class="text-body font-medium">
+                      <li class="mb-4">
+                          <a href="" class="hover:underline">nocaweb@comunicaciones.co</a>
+                      </li>
+                      <li>
+                          <a href="#" class="hover:underline">+ (601) 2281260</a>
+                      </li>
+                      <li>
+                          <a href="#" class="hover:underline">+ 320 354 2079</a>
+                      </li>
+                  </ul>
+              </div>
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold text-heading uppercase">Suscríbete</h2>
+                  
+<form class="max-w-sm mx-auto">
+  <label for="input-group-1" class="block mb-2.5 text-sm font-medium text-heading">Introduce tu email para enterarte de noticias, guías y contenido.</label>
+  <div class="relative">
+    <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+      <svg class="w-4 h-4 text-body" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="m3.5 5.5 7.893 6.036a1 1 0 0 0 1.214 0L20.5 5.5M4 19h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z"/></svg>
+    </div>
+    <input type="text" id="input-group-1" class="block w-full ps-9 pe-3 py-2.5 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand shadow-xs placeholder:text-body" placeholder="name@flowbite.com">
+  </div>
+</form>
+
+              </div>
+          </div>
+      </div>
+      <hr class="my-6 border-default sm:mx-auto lg:my-8 border-white" />
+      <div class="sm:flex sm:items-center sm:justify-between text-white">
+          <span class="text-sm text-body sm:text-center">© 2025 <a href="https://flowbite.com/" class="hover:underline">Noca LTDA.</a>. todos los derechos reservados
+          </span>
+          <div class="flex mt-4 sm:justify-center sm:mt-0">
+            <a href="#" class="text-body hover:text-heading">
+                <img src="img/Instagram Circle.png" alt="">
+                <span class="sr-only">Facebook page</span>
+            </a>
+            <a href="#" class="text-body hover:text-heading ms-5">
+               <img src="img/Facebook.png" alt="">
+                <span class="sr-only">Discord community</span>
+            </a>
+            <a href="#" class="text-body hover:text-heading ms-5">
+            <img src="img/Twitter Circled.png" alt="">
+            <span class="sr-only">Twitter page</span>
+            </a>
+          </div>
+      </div>
+    </div>
+</footer>
+
+         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</body>
+</html>

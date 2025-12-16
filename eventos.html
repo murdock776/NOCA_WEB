@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+    <title>NOCA</title>
+    <link rel="icon" type="image/png" href="icons/NOCA-icon.png">
+    <link rel="stylesheet" href="NOCA.css">
+    <link rel="stylesheet" href="Variable.css">
+    <style>
+    main section img { display:block; width:100%; height:auto; }
+  </style>
+</head>
+ 
+<body>
+   
+
+<nav id="header" class="bg-transparent fixed w-full z-50 top-0 start-0 ">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img id="logo" src="img/logo noca blanco.png" class=" w-30" alt="NOCA Logo" />
+    </a>
+    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        <button type="button" class="text-white hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-3xl text-sm px-3 py-2 focus:outline-none botonn">Suscribirse</button>
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-sticky" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
+        </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-default rounded-base bg-neutral-secondary-soft md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-neutral-primary gap-5 lg:gap-15 text-xl text-white">
+        <li>
+          <a href="index.html" class="menu-item block py-2 px-3 bg-brand rounded-sm md:bg-transparent md:text-fg-brand md:p-0" aria-current="page">Inicio</a>
+        </li>
+        <li>
+          <a href="guias.html" class=" menu-item block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Guias y cursos</a>
+        </li>
+        <li>
+          <a href="noticias.html" class="menu-item block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Noticias</a>
+        </li>
+        <li>
+          <a href="page7.html" class="menu-item block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Preguntas frecuentes</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <main>
+        <section class="bg-[url('img/eventos_hero.png')] bg-cover bg-center w-full 
+            h-[350px] sm:h-[450px] md:h-[550px] lg:h-[550px] 
+            flex justify-center items-center">
+
+  <h1 class="text-center text-white 
+             text-6xl sm:text-5xl md:text-6xl lg:text-8xl 
+             w-11/12 eventos">
+    Eventos y campañas
+  </h1>
+
+</section>
+<!-- section2 -->
+
+<div class="flex justify-center items-center m-10 laguitarra">
+  <section class="relative bg-[url('img/guitarra.jpg')] bg-cover bg-center 
+               sm:bg-cover 
+         w-300 
+         h-[400px] sm:h-[450px] md:h-[550px] lg:h-[550px]
+                  rounded-xl p-5 flex flex-col justify-between">
+      <div class="absolute inset-0 bg-black/40 rounded-xl"></div>
+      <div class="relative text-white flex justify-between items-start ml-5 mr-5">
+          <button type="button" 
+                  class="hover:bg-brand-strong box-border border border-transparent 
+                         focus:ring-4 focus:ring-brand-medium shadow-xs font-medium 
+                         leading-5 rounded-3xl text-sm px-3 py-2 botonn">
+              Proximo evento
+          </button>
+
+          <h1 class="w-80 text-right">
+              Desbloquea el acceso a este evento con la membresía 
+              “Peludo Básico” o “Peludo Plus”
+          </h1>
+      </div>
+
+      <div class="relative text-white ml-5">
+          <h1 class="text-lg font-semibold">
+              “Siempre son flores” show benéfico con Héctor Buitrago de Aterciopelados.
+          </h1>
+          <p class="flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40">
+                <path fill="#2BB4A0" d="M12 2C8.1 2 5 5.1 5 9c0 5.3 7 12.9 7 12.9S19 14.3 19 9c0-3.9-3.1-7-7-7z"/>
+                <circle cx="12" cy="9" r="2.6" fill="#fff"/>
+              </svg>
+              Teatro Jorge Eliécer Gaitán  3:00 p.m. a 8:30 p.m.
+          </p>
+      </div>
+
+  </section>
+</div>
+
+
+<!-- section3 -->
+
+
+<section class="flex flex-col justify-center items-center gap-10 p-3">
+<div class=" p-3 px-5 rounded-2xl flex flex-wrap items-center justify-between gap-4 categorias">
+
+    <div class="flex flex-wrap items-center gap-4 text-[15px] text-gray-700">
+        <span class="relative pr-4 after:content-[''] after:w-px after:h-5 after:bg-gray-300 after:absolute after:right-0 after:top-1/2 after:-translate-y-1/2">
+            Eventos educativos
+        </span>
+
+        <span class="relative pr-4 after:content-[''] after:w-px after:h-5 after:bg-gray-300 after:absolute after:right-0 after:top-1/2 after:-translate-y-1/2">
+            Eventos comunitarios
+        </span>
+
+        <span>Eventos culturales</span>
+    </div>
+
+    <div class="flex items-center gap-3">
+        <button class="bg-[#4fc3c0] text-white px-4 py-1.5 rounded-full text-sm">
+            Ver todos
+        </button>
+
+        <button class="border border-[#4fc3c0] text-[#4fc3c0] px-4 py-1.5 rounded-full text-sm">
+            Filtrar eventos ⌄
+        </button>
+    </div>
+
+</div>
+<div class="w-full max-w-6xl mx-auto rounded-xl flex flex-col sm:flex-row items-center justify-center sm:items-start gap-4 sm:gap-6">
+
+    
+    <div class="w-45 h-28 sm:w-52 sm:h-32 ">
+        <img src="img/educacion.png" class="w-full h-full object-cover rounded-lg" alt="">
+    </div>
+
+    <div class="horarios flex gap-28 rounded-lg p-5">
+    <div class="flex flex-col flex-1 w-full">
+
+        <div class="flex flex-wrap items-center gap-2 text-xs loshorarios">
+            <span class="px-3 py-1 border border-[#49b6b6] rounded-full ">
+                19 Sep - 2025
+                10:00 AM - 2:00 PM
+            </span>
+            <span class="px-3 py-1 rounded-full educativo">
+                Evento educativo
+            </span>
+        </div>
+
+        <h2 class="mt-2 text-[15px] descripcion">
+            “¿Cómo reconocer un criadero ilegal?” invitadas: Dra. Valeria Montoya y Vet. Mariana Rojas
+        </h2>
+
+        <p class="flex items-center gap-1 text-sm mt-1 text-gray-600 loshorarios">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#2BB4A0">
+                <path d="M12 2C8.1 2 5 5.1 5 9c0 5.3 7 12.9 7 12.9S19 14.3 19 9c0-3.9-3.1-7-7-7z"/>
+                <circle cx="12" cy="9" r="2.6" fill="#fff"/>
+            </svg>
+            Evento Virtual Via Zoom
+        </p>
+    </div>
+
+    <div class="flex flex-row sm:flex-col items-center sm:items-end gap-3 mt-3 sm:mt-0 loshorarios">
+
+        <button class="px-4 py-2 rounded-full border border-[#49b6b6] text-sm shadow-sm whitespace-nowrap">
+            Confirma asistencia
+        </button>
+
+        <div class="flex -space-x-4 rtl:space-x-reverse">
+            <img class="w-9 h-9 sm:w-10 sm:h-10 border border-buffer rounded-full" src="img/usuarios.png" alt="">
+            <img class="w-9 h-9 sm:w-10 sm:h-10 border border-buffer rounded-full" src="img/usuarios2.png" alt="">
+            <img class="w-9 h-9 sm:w-10 sm:h-10 border border-buffer rounded-full" src="img/usuarios3.png" alt="">
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="w-full max-w-6xl mx-auto rounded-xl flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-6 justify-center">
+
+    
+    <div class="w-60 h-28 sm:w-52 sm:h-32 ">
+        <img src="img/comunitario.png" class="w-full h-full object-cover rounded-lg" alt="">
+    </div>
+
+    <div class="horarios flex gap-28 rounded-lg p-5">
+    <div class="flex flex-col flex-1 w-full">
+
+        <div class="flex flex-wrap items-center gap-2 text-xs loshorarios">
+            <span class="px-3 py-1 border border-[#49b6b6]  rounded-full">
+                28 Nov  2025
+                2:00 PM – 6:00 PM
+            </span>
+            <span class="px-3 py-1 rounded-full educativo">
+                Evento comunitario
+            </span>
+        </div>
+
+        <h2 class="mt-2 text-[15px] descripcion">
+            “Huella colectiva: Encuentro por el Bienestar Animal” invitados: Fundación Huella viva y activistas locales
+        </h2>
+
+        <p class="flex items-center gap-1 text-sm mt-1 text-gray-600 loshorarios">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#2BB4A0">
+                <path d="M12 2C8.1 2 5 5.1 5 9c0 5.3 7 12.9 7 12.9S19 14.3 19 9c0-3.9-3.1-7-7-7z"/>
+                <circle cx="12" cy="9" r="2.6" fill="#fff"/>
+            </svg>
+            Auditorio León de Greiff - UNAL
+        </p>
+    </div>
+
+    <div class="flex flex-row sm:flex-col items-center sm:items-end gap-3 mt-3 sm:mt-0 loshorarios">
+
+        <button class="px-4 py-2 rounded-full border border-[#49b6b6] text-sm shadow-sm whitespace-nowrap">
+            Confirma asistencia
+        </button>
+
+        <div class="flex -space-x-4 rtl:space-x-reverse">
+            <img class="w-9 h-9 sm:w-10 sm:h-10 border border-buffer rounded-full" src="img/usuarios.png" alt="">
+            <img class="w-9 h-9 sm:w-10 sm:h-10 border border-buffer rounded-full" src="img/usuarios2.png" alt="">
+            <img class="w-9 h-9 sm:w-10 sm:h-10 border border-buffer rounded-full" src="img/usuarios3.png" alt="">
+        </div>
+    </div>
+</div>
+</div>
+<div class="w-full max-w-6xl mx-auto rounded-xl flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-6 justify-center">
+
+    
+    <div class="w-45 h-28 sm:w-52 sm:h-32 ">
+        <img src="img/musica.png" class="w-full h-full object-cover rounded-lg" alt="">
+    </div>
+
+    <div class="horarios flex gap-45 rounded-lg p-5">
+    <div class="flex flex-col flex-1 w-full">
+
+        <div class="flex flex-wrap items-center gap-2 text-xs loshorarios">
+            <span class="px-3 py-1 border border-[#49b6b6] rounded-full">
+                12 Feb – 2026
+                7:00 PM – 10:30 PM
+            </span>
+            <span class="px-3 py-1 rounded-full educativo">
+                Evento cultural
+            </span>
+        </div>
+
+        <h2 class="mt-2 text-[15px] descripcion">
+            “Voces por ellos: Concierto Benéfico NOCA” Artista invitado: Chucho Merchán 
+        </h2>
+
+        <p class="flex items-center gap-1 text-sm mt-1 text-gray-600 loshorarios">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#2BB4A0">
+                <path d="M12 2C8.1 2 5 5.1 5 9c0 5.3 7 12.9 7 12.9S19 14.3 19 9c0-3.9-3.1-7-7-7z"/>
+                <circle cx="12" cy="9" r="2.6" fill="#fff"/>
+            </svg>
+            Centro Felicidad - Chapinero
+        </p>
+    </div>
+
+    <div class="flex flex-row sm:flex-col items-center sm:items-end gap-3 mt-3 sm:mt-0 loshorarios">
+
+        <button class="px-4 py-2 rounded-full border border-[#49b6b6] text-sm shadow-sm whitespace-nowrap">
+            Compra tu boleta
+        </button>
+
+        <div class="flex -space-x-4 rtl:space-x-reverse">
+            <img class="w-9 h-9 sm:w-10 sm:h-10 border border-buffer rounded-full" src="img/usuarios.png" alt="">
+            <img class="w-9 h-9 sm:w-10 sm:h-10 border border-buffer rounded-full" src="img/usuarios2.png" alt="">
+            <img class="w-9 h-9 sm:w-10 sm:h-10 border border-buffer rounded-full" src="img/usuarios3.png" alt="">
+        </div>
+    </div>
+    </div>
+</div>
+<div class="flex gap-3 justify-center ">
+  <span class="num active w-10 h-10 rounded-full flex items-center justify-center cursor-pointer text-lg font-semibold bg-[#f36e23] text-white">1</span>
+  <span class="num w-10 h-10 rounded-full flex items-center justify-center cursor-pointer text-lg font-semibold bg-gray-300">2</span>
+  <span class="num w-10 h-10 rounded-full flex items-center justify-center cursor-pointer text-lg font-semibold bg-gray-300">3</span>
+  <span class="num w-10 h-10 rounded-full flex items-center justify-center cursor-pointer text-lg font-semibold bg-gray-300">4</span>
+</div>
+
+</section>
+
+
+    </main>
+    <footer>
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 mt-10">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0">
+              <a href="noca.html" class="flex items-center">
+                  <img src="img/logo noca blanco.png" class="h-20 me-3" alt="FlowBite Logo" />
+                  <img src="img/nombre noca blanco.png" alt="">
+              </a>
+          </div>
+          <div class="grid grid-cols-2 gap-9 sm:gap-50 sm:grid-cols-2 text-white">
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold text-heading uppercase">Contáctanos</h2>
+                  <ul class="text-body font-medium">
+                      <li class="mb-4">
+                          <a href="" class="hover:underline">nocaweb@comunicaciones.co</a>
+                      </li>
+                      <li>
+                          <a href="#" class="hover:underline">+ (601) 2281260</a>
+                      </li>
+                      <li>
+                          <a href="#" class="hover:underline">+ 320 354 2079</a>
+                      </li>
+                  </ul>
+              </div>
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold text-heading uppercase">Suscríbete</h2>
+                  
+<form class="max-w-sm mx-auto">
+  <label for="input-group-1" class="block mb-2.5 text-sm font-medium text-heading">Introduce tu email para enterarte de noticias, guías y contenido.</label>
+  <div class="relative">
+    <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+      <svg class="w-4 h-4 text-body" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="m3.5 5.5 7.893 6.036a1 1 0 0 0 1.214 0L20.5 5.5M4 19h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z"/></svg>
+    </div>
+    <input type="text" id="input-group-1" class="block w-full ps-9 pe-3 py-2.5 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand shadow-xs placeholder:text-body" placeholder="name@flowbite.com">
+  </div>
+</form>
+
+              </div>
+          </div>
+      </div>
+      <hr class="my-6 border-default sm:mx-auto lg:my-8 border-white" />
+      <div class="sm:flex sm:items-center sm:justify-between text-white">
+          <span class="text-sm text-body sm:text-center">© 2025 <a href="https://flowbite.com/" class="hover:underline">Noca LTDA.</a>. todos los derechos reservados
+          </span>
+          <div class="flex mt-4 sm:justify-center sm:mt-0">
+            <a href="#" class="text-body hover:text-heading">
+                <img src="img/Instagram Circle.png" alt="">
+                <span class="sr-only">Facebook page</span>
+            </a>
+            <a href="#" class="text-body hover:text-heading ms-5">
+               <img src="img/Facebook.png" alt="">
+                <span class="sr-only">Discord community</span>
+            </a>
+            <a href="#" class="text-body hover:text-heading ms-5">
+            <img src="img/Twitter Circled.png" alt="">
+            <span class="sr-only">Twitter page</span>
+            </a>
+          </div>
+      </div>
+    </div>
+</footer>
+
+   <script>
+  const header = document.getElementById("header");
+  const menuItems = document.querySelectorAll(".menu-item");
+  const logo = document.getElementById("logo");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 200) { 
+      
+      header.classList.add("bg-white");
+      header.classList.remove("bg-transparent");
+
+      
+      menuItems.forEach(item => {
+        item.classList.remove("text-white");
+        item.classList.add("text-black");
+
+        logo.src ="img/NOCA logoo.png";
+      });
+    } else {
+      
+      header.classList.remove("bg-white");
+      header.classList.add("bg-transparent");
+
+    
+      menuItems.forEach(item => {
+        item.classList.remove("text-black");
+        item.classList.add("text-white");
+
+        logo.src = "img/logo noca blanco.png";
+      });
+    }
+  });
+</script>
+
+</body>
+</html>

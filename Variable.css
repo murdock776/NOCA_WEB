@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Fredoka_semibold";
+    src: url(fonts/Fredoka/static/Fredoka-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Poppins_semibold";
+    src: url(fonts/Poppins/Poppins-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Fredoka_medium";
+    src: url(fonts/Fredoka/static/Fredoka-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Poppins_medium";
+    src:url(fonts/Poppins/Poppins-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+:root {
+    --color-primario: #49b6b6;
+    --color-secundario: #f36e23;
+    --color-ternario: #B5E1E0;
+    --color-body: #eaeaea;
+    --color-complemetario: #492e1a;
+    --color-texto: #000000;
+    --color-texto2: #ffffff;
+
+    --fuente-principal: "Poppins", sans-serif;
+    --fuente-titulos: "Fredoka_semibold", sans-serif;
+    --fuente-texto-bold: "Poppins_semibold", sans-serif;
+    --fuente-subt: "Fredoka_medium", sans-serif;
+    --principal-medium: "Poppins_medium", sans-serif;
+    
+
+    --fw-regular: 400;
+    --fw-bold: 600;
+    --fw-medium: 500;
+}
